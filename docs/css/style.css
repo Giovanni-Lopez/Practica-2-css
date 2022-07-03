@@ -1,0 +1,100 @@
+/* Selector Universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de Etiqueta */
+body{
+    background-image: url("../img/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos para el header */
+header{
+    background-color: rgba(0, 0, 0, 0.199);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+/* Estilos para texto del logo */
+.logo{
+    font-size: 20px;
+    color: white;
+    font-weight: bold; 
+    position: relative;
+}
+
+/* Estilos para agregar image y texto a la par */
+.logo img{
+    vertical-align: middle;
+}
+
+/* Estilos para eliminar el type de lista */
+.menu ul{
+    list-style: none;
+}
+
+/* Estilos de las lista en fila */
+.menu ul li{
+    position: relative;
+    float: left;    
+}
+
+/* Estilos de los enlaces */
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Estilo para los iconos */
+.menu ul li i{
+    padding: 10px;
+    color: yellow;
+}
+
+/* Estilos para la etiqueta main */
+main{
+    padding: 30px;
+    box-shadow: 10px 15px 30px white;
+    top: 70px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;    
+}
+
+/* Letra capital */
+.letracapital::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: chartreuse;
+    margin: 0px;
+}
+
+/* Estilos para los h3 y h2 */
+section h1, article h3,  h2{
+    text-align: center;
+    border-bottom: 2px solid lime;
+}
+
+/* Estilos para los parrados dentro de la etiqueta article */
+section article p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+    
