@@ -15,7 +15,7 @@ body{
 
 /* Estilos para el header */
 header{
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.856);
     color: white;
     position: fixed;
     top: 0;
@@ -62,7 +62,7 @@ header{
 }
 
 .menu ul li a:hover{
-    background-color: rgba(0, 255, 255, 0.315);
+    background-color: rgba(0, 47, 255, 0.795);
     
 }
 
@@ -76,7 +76,7 @@ header{
 main{
     padding: 30px;
     box-shadow: 10px 15px 30px white;
-    top: 70px;
+    top: 100px;
     width: 50%;
     margin: 0 auto;
     position: relative;
@@ -87,14 +87,14 @@ main{
 .letracapital::first-letter{
     font-size: 50px;
     font-weight: bold;
-    color: chartreuse;
+    color: blue;
     margin: 0px;
 }
 
 /* Estilos para los h3 y h2 */
 section h1, article h3,  h2{
     text-align: center;
-    border-bottom: 2px solid lime;
+    border-bottom: 2px solid blue;
 }
 
 /* Estilos para los parrados dentro de la etiqueta article */
